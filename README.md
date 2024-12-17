@@ -35,7 +35,7 @@ cloudinaryConfig.js        # Configura o Cloudinary para upload de imagens.
     CLOUDINARY_CLOUD_NAME=<seu_cloud_name_aqui>
     CLOUDINARY_API_KEY=<sua_api_key_aqui>
     CLOUDINARY_API_SECRET=<seu_api_secret_aqui>
-    PORT=3000
+    IP=<seu_IP_aqui>
     ```
 3. Instale as dependências do projeto:
     ```bash
