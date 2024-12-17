@@ -45,17 +45,20 @@ cloudinaryConfig.js        # Configura o Cloudinary para upload de imagens.
 ## Rodando o Projeto
 
 1. No terminal, navegue até a pasta do projeto.
-2. Execute o seguinte comando para iniciar o servidor:
+2. Execute o seguinte comando para instalar as dependências:
     ```bash
-    npm start
+    yarn install
     ```
-   Ou, caso utilize o nodemon para recarregar automaticamente:
+   em seguida para iniciar o servidor use o comando:
     ```bash
-    npm run dev
+    node server.js
     ```
 
-O servidor ficará rodando em [http://localhost:3000](http://localhost:3000).
-
+Deve aparecer a seguinte mensagem: 
+```
+Servidor rodando na porta 3000
+Banco de dados conectado
+```
 ## Rotas da API
 
 - **GET /produtos**: Retorna todos os produtos cadastrados no banco de dados.
