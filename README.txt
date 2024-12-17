@@ -1,4 +1,4 @@
-```markdown
+
 # Descrição do Projeto
 
 Este projeto é uma API criada com Node.js, Express e MongoDB Atlas, e tem como objetivo gerenciar um CRUD de produtos, onde é possível criar, ler, atualizar e deletar produtos. Além disso, o projeto está integrado com o Cloudinary para o upload e armazenamento de imagens dos produtos.
@@ -66,4 +66,4 @@ O servidor ficará rodando em [http://localhost:3000](http://localhost:3000).
 ## Como Testar
 
 Use uma ferramenta como **Insomnia** ou **Postman** para testar as rotas da API. Para criar um novo produto com imagem, envie uma requisição POST para `http://localhost:3000/produtos` com os campos `name`, `description`, `quantity` e um arquivo de imagem (no campo `image`).
-```
+
